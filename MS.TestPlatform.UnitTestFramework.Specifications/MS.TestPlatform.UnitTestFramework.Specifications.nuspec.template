@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>$author$ (mcpride)</authors>
+    <owners>$author$ (mcpride)</owners>
+    <projectUrl>http://mcpri.de</projectUrl>
+    <licenseUrl>http://mcpri.de</licenseUrl>
+    <iconUrl>http://mcpri.de/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright © Marco Stolze 2013</copyright>
+    <releaseNotes />
+    <language>en-US</language>
+    <tags>winrt windowsstore win8 metro test unittest bdd specifications specs mstest</tags>
+    <dependencies />
+  </metadata>
+</package>
