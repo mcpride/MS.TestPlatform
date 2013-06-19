@@ -1,11 +1,11 @@
-﻿using System.Resources;
+using System.Resources;
 using System.Reflection;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MS.TestPlatform.UnitTestFramework.Specifications")]
-[assembly: AssemblyDescription("BDD test specifications for windows store and windows phone apps.")]
+[assembly: AssemblyDescription("BDD test specifications for windows store and windows phone apps similar to MSTestContrib.")]
 #if DEBUG
 [assembly: AssemblyConfiguration("Debug")]
 #else

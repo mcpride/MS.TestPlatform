@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>$id$.Signed</id>
@@ -6,9 +6,9 @@
     <title>$id$.Signed</title>
     <authors>$author$ (mcpride)</authors>
     <owners>$author$ (mcpride)</owners>
-    <projectUrl>http://mcpri.de</projectUrl>
-    <licenseUrl>http://mcpri.de</licenseUrl>
-    <iconUrl>http://mcpri.de/favicon.ico</iconUrl>
+    <projectUrl>https://github.com/mcpride/MS.TestPlatform</projectUrl>
+    <licenseUrl>https://github.com/mcpride/MS.TestPlatform</licenseUrl>
+    <iconUrl>https://github.com/mcpride/MS.TestPlatform/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$ Signed version!</description>
     <copyright>Copyright © Marco Stolze 2013</copyright>
