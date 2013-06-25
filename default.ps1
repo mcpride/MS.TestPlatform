@@ -5,6 +5,8 @@ properties {
   $buildConfig = "Debug"
   $compileMessage = 'Executed Compile!'
   $cleanMessage = 'Executed Clean!'
+  $frameworkpath = "$env:systemroot\Microsoft.NET\Framework\v4.0.30319\"
+  $msbuild = $frameworkpath + "msbuild.exe"
 }
 
 task default -depends Compile
@@ -14,11 +16,11 @@ task ? -Description "Helper to display task info" {
 }
 
 task Compile -depends Clean { 
-  exec { msbuild $slnFile /target:Rebuild "/p:Configuration=$buildConfig" }
+  exec { Invoke-Expression "$msbuild $slnFile /target:Rebuild /p:Configuration=$buildConfig" }
   $compileMessage
 }
 
 task Clean {
-  exec { msbuild $slnFile /target:Clean "/p:Configuration=$buildConfig" }
+  exec { Invoke-Expression "$msbuild $slnFile /target:Clean /p:Configuration=$buildConfig" }
   $cleanMessage
 }

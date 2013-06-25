@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 
 set psakeversion=4.2.0.1
 
