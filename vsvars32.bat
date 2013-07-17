@@ -1,4 +1,3 @@
-﻿
 @call :GetVSCommonToolsDir
 @if "%VS110COMNTOOLS%"=="" goto error_no_VS110COMNTOOLSDIR
 
