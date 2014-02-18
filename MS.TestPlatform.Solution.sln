@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{87
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Examples\Calculator.Core\Calculator.Core.csproj", "{79A8D565-4484-4B72-A759-8E96A634690D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.QualityTools.UnitTestFramework.Specifications", "MS.QualityTools.UnitTestFramework.Specifications\MS.QualityTools.UnitTestFramework.Specifications.csproj", "{6224D9A7-6953-43C6-A8D8-60D5832EAE10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,21 @@ Global
 		{79A8D565-4484-4B72-A759-8E96A634690D}.Signed Release|x86.ActiveCfg = Release|x86
 		{79A8D565-4484-4B72-A759-8E96A634690D}.Signed Release|x86.Build.0 = Release|x86
 		{79A8D565-4484-4B72-A759-8E96A634690D}.Signed Release|x86.Deploy.0 = Release|x86
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Release|x64.ActiveCfg = Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Release|x86.ActiveCfg = Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Signed Release|Any CPU.ActiveCfg = Signed Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Signed Release|Any CPU.Build.0 = Signed Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Signed Release|ARM.ActiveCfg = Signed Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Signed Release|x64.ActiveCfg = Signed Release|Any CPU
+		{6224D9A7-6953-43C6-A8D8-60D5832EAE10}.Signed Release|x86.ActiveCfg = Signed Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

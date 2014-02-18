@@ -13,7 +13,7 @@ using System.Reflection;
 #endif
 [assembly: AssemblyCompany("Marco Stolze")]
 [assembly: AssemblyProduct("MS.TestPlatform.UnitTestFramework.Specifications")]
-[assembly: AssemblyCopyright("Copyright © Marco Stolze 2013")]
+[assembly: AssemblyCopyright("Copyright © Marco Stolze 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]

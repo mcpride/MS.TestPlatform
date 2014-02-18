@@ -107,3 +107,7 @@ UpgradeLog*.XML
 /.nuget/NuGet.exe
 /packages/psake.*
 /MS.TestPlatform.UnitTestFramework.Specifications/MS.TestPlatform.UnitTestFramework.Specifications.nuspec
+
+/.localhistory
+/Deploy/Packages
+/MS.QualityTools.UnitTestFramework.Specifications/MS.QualityTools.UnitTestFramework.Specifications.nuspec
